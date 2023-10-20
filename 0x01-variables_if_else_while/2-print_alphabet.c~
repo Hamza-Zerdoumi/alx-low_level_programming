@@ -1,0 +1,24 @@
+#include<stdio.h>
+/**
+ *main-Entry part 
+ *Description: peinting the charactere in lower case.
+ *Return: Alwyase 0 if sucess.
+ */
+
+int main()
+{
+  char alphabets[]="abcdefghijklmnopqrstuvwxyz";
+  char  alphabet_;
+  int i;
+
+  alphabet_= 'a';
+  i=0
+  while (alphabet_ != 'z')
+    {
+      putchar("%c", alphabets[i]);
+      alphabet_=alphabets[i];
+      i++;
+    }
+
+  return (0);
+}
